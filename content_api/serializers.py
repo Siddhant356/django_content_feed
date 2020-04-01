@@ -7,5 +7,6 @@ class ItemSerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'title',
-            'description'
+            'description',
+            'image'
         )
